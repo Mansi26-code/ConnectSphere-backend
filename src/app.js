@@ -16,7 +16,7 @@ app.set("port", process.env.PORT || 8000);
 
 // ✅ CORS CONFIGURATION ADDED
 app.use(cors({
-    origin: "https://connect-sphere-frontend-alpha.vercel.app/",  // Yahan "*" hai, but specific frontend domain dena better hoga
+    origin: "https://connect-sphere-frontend-alpha.vercel.app",  // Yahan "*" hai, but specific frontend domain dena better hoga
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
